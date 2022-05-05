@@ -208,9 +208,6 @@ fakeRequest('/about').then((res)=>{
   console.log(res.status)
   console.log("try again")
 })*/
-
-
-
 const fakeRequest = (url) => {
   return new Promise((resolve, reject) =>{
     setTimeout(()=>{
