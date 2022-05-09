@@ -246,6 +246,29 @@ fakeRequest('/dog').then((res)=>{
   console.log("try again")
 })
 
+/*const fakeRequest = (url) => {
+  return new Promise((resolve, reject) =>{
+    setTimeout(()=>{
+        const pages = {
+          '/users': [
+            {id: 1, username:'mama'},
+            {id:7, username:'papa'}
+          ],
+          '/user/1':{
+      
+          }
+          '/about' : 'this is the about page'
+        }
+        const peru = grue[url];
+        if(peru){
+        resolve({status:200, peru});
+        }else{
+          reject({status:404});
+        }
+    },1000)
+  })
+}*/
+
 
 
 
